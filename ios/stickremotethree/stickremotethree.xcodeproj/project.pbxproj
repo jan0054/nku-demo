@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C6D088D99148FBEAF4F90AF /* libPods-stickremotethree.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F21D6712CDAE8E9346D5CE1A /* libPods-stickremotethree.a */; };
+		F66466491BFB3B0700F8E0AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F66466481BFB3B0700F8E0AB /* main.m */; };
+		F664664C1BFB3B0700F8E0AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F664664B1BFB3B0700F8E0AB /* AppDelegate.m */; };
+		F664664F1BFB3B0700F8E0AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F664664E1BFB3B0700F8E0AB /* ViewController.m */; };
+		F66466521BFB3B0700F8E0AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66466501BFB3B0700F8E0AB /* Main.storyboard */; };
+		F66466541BFB3B0700F8E0AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66466531BFB3B0700F8E0AB /* Assets.xcassets */; };
+		F66466571BFB3B0700F8E0AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66466551BFB3B0700F8E0AB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19B42132A02470EC123280FE /* Pods-stickremotethree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stickremotethree.release.xcconfig"; path = "Pods/Target Support Files/Pods-stickremotethree/Pods-stickremotethree.release.xcconfig"; sourceTree = "<group>"; };
+		8F4DCF17B191B91F3FA6A4D9 /* Pods-stickremotethree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stickremotethree.debug.xcconfig"; path = "Pods/Target Support Files/Pods-stickremotethree/Pods-stickremotethree.debug.xcconfig"; sourceTree = "<group>"; };
+		F21D6712CDAE8E9346D5CE1A /* libPods-stickremotethree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stickremotethree.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66466441BFB3B0600F8E0AB /* stickremotethree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stickremotethree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66466481BFB3B0700F8E0AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F664664A1BFB3B0700F8E0AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F664664B1BFB3B0700F8E0AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F664664D1BFB3B0700F8E0AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F664664E1BFB3B0700F8E0AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F66466511BFB3B0700F8E0AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F66466531BFB3B0700F8E0AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F66466561BFB3B0700F8E0AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F66466581BFB3B0700F8E0AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F66466411BFB3B0600F8E0AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6D088D99148FBEAF4F90AF /* libPods-stickremotethree.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24C1120E3846807B9CC420A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F21D6712CDAE8E9346D5CE1A /* libPods-stickremotethree.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DE8B7D9478B2D4B38D8AD61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F4DCF17B191B91F3FA6A4D9 /* Pods-stickremotethree.debug.xcconfig */,
+				19B42132A02470EC123280FE /* Pods-stickremotethree.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F664663B1BFB3B0600F8E0AB = {
+			isa = PBXGroup;
+			children = (
+				F66466461BFB3B0600F8E0AB /* stickremotethree */,
+				F66466451BFB3B0600F8E0AB /* Products */,
+				4DE8B7D9478B2D4B38D8AD61 /* Pods */,
+				24C1120E3846807B9CC420A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F66466451BFB3B0600F8E0AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F66466441BFB3B0600F8E0AB /* stickremotethree.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F66466461BFB3B0600F8E0AB /* stickremotethree */ = {
+			isa = PBXGroup;
+			children = (
+				F664664A1BFB3B0700F8E0AB /* AppDelegate.h */,
+				F664664B1BFB3B0700F8E0AB /* AppDelegate.m */,
+				F664664D1BFB3B0700F8E0AB /* ViewController.h */,
+				F664664E1BFB3B0700F8E0AB /* ViewController.m */,
+				F66466501BFB3B0700F8E0AB /* Main.storyboard */,
+				F66466531BFB3B0700F8E0AB /* Assets.xcassets */,
+				F66466551BFB3B0700F8E0AB /* LaunchScreen.storyboard */,
+				F66466581BFB3B0700F8E0AB /* Info.plist */,
+				F66466471BFB3B0700F8E0AB /* Supporting Files */,
+			);
+			path = stickremotethree;
+			sourceTree = "<group>";
+		};
+		F66466471BFB3B0700F8E0AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F66466481BFB3B0700F8E0AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F66466431BFB3B0600F8E0AB /* stickremotethree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F664665B1BFB3B0700F8E0AB /* Build configuration list for PBXNativeTarget "stickremotethree" */;
+			buildPhases = (
+				CAD8FE41086ED5C9EAA869AD /* Check Pods Manifest.lock */,
+				F66466401BFB3B0600F8E0AB /* Sources */,
+				F66466411BFB3B0600F8E0AB /* Frameworks */,
+				F66466421BFB3B0600F8E0AB /* Resources */,
+				D5F8101281F538BC3F4554EC /* Embed Pods Frameworks */,
+				BEF2E76B1CD08AA8F5749F49 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stickremotethree;
+			productName = stickremotethree;
+			productReference = F66466441BFB3B0600F8E0AB /* stickremotethree.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F664663C1BFB3B0600F8E0AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Tapgo;
+				TargetAttributes = {
+					F66466431BFB3B0600F8E0AB = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = F664663F1BFB3B0600F8E0AB /* Build configuration list for PBXProject "stickremotethree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F664663B1BFB3B0600F8E0AB;
+			productRefGroup = F66466451BFB3B0600F8E0AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F66466431BFB3B0600F8E0AB /* stickremotethree */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F66466421BFB3B0600F8E0AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66466571BFB3B0700F8E0AB /* LaunchScreen.storyboard in Resources */,
+				F66466541BFB3B0700F8E0AB /* Assets.xcassets in Resources */,
+				F66466521BFB3B0700F8E0AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BEF2E76B1CD08AA8F5749F49 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-stickremotethree/Pods-stickremotethree-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAD8FE41086ED5C9EAA869AD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5F8101281F538BC3F4554EC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-stickremotethree/Pods-stickremotethree-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F66466401BFB3B0600F8E0AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F664664F1BFB3B0700F8E0AB /* ViewController.m in Sources */,
+				F664664C1BFB3B0700F8E0AB /* AppDelegate.m in Sources */,
+				F66466491BFB3B0700F8E0AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F66466501BFB3B0700F8E0AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F66466511BFB3B0700F8E0AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F66466551BFB3B0700F8E0AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F66466561BFB3B0700F8E0AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F66466591BFB3B0700F8E0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F664665A1BFB3B0700F8E0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F664665C1BFB3B0700F8E0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F4DCF17B191B91F3FA6A4D9 /* Pods-stickremotethree.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = stickremotethree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.tapgo.stickremotethree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F664665D1BFB3B0700F8E0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19B42132A02470EC123280FE /* Pods-stickremotethree.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = stickremotethree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.tapgo.stickremotethree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F664663F1BFB3B0600F8E0AB /* Build configuration list for PBXProject "stickremotethree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66466591BFB3B0700F8E0AB /* Debug */,
+				F664665A1BFB3B0700F8E0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F664665B1BFB3B0700F8E0AB /* Build configuration list for PBXNativeTarget "stickremotethree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F664665C1BFB3B0700F8E0AB /* Debug */,
+				F664665D1BFB3B0700F8E0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F664663C1BFB3B0600F8E0AB /* Project object */;
+}
