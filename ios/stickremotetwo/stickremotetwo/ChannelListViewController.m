@@ -68,7 +68,7 @@ NSMutableArray *channelArray;
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"channelcell"];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"democell"];
     
     PFObject *channelObj = [channelArray objectAtIndex:indexPath.row];
     NSString *nameString = channelObj[@"name"];
