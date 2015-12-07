@@ -63,7 +63,7 @@
                     <connections>
                         <outlet property="codenameInput" destination="bj4-je-5Np" id="57l-yK-wAx"/>
                         <outlet property="nameInput" destination="cJT-gk-sFs" id="i78-qC-auK"/>
-                        <segue destination="K85-rK-xBh" kind="show" identifier="channellistsegue" id="pP9-5k-aT8"/>
+                        <segue destination="K85-rK-xBh" kind="show" identifier="demosegue" id="Nhh-jH-54H"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

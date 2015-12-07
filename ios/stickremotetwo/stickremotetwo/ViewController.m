@@ -56,7 +56,8 @@
 //NSLocalizedString(@"alert_done", nil)
 
 - (IBAction)listButtonTap:(UIButton *)sender {
-    [self performSegueWithIdentifier:@"channellistsegue" sender:nil];
+    [self performSegueWithIdentifier:@"demosegue" sender:nil];
 }
+
 
 @end
