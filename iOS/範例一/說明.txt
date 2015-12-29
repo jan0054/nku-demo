@@ -1,0 +1,5 @@
+這是一個簡單的專案, 主要功能是示範基本的程式與介面
+
+Main.storyboard是我們主要的介面檔案, 有兩個畫面: View Controller 與 Detail View Controller.
+這兩個畫面中間由一個id為"showdetailsegue"的轉場Segue所連結
+VeiwController包含一些最基本的概念, DetailViewController比較進階的部分是透過啟動手機的相機(或圖片庫)來示範delegate的概念

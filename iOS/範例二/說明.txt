@@ -1,0 +1,7 @@
+這是一個比較複雜一點的例子, 由於他有用到第三方library, 在開啟專案的時候請執行.xcworkspace (而不是.xcodeproj)
+
+這個範例請先看到AppDelegate.m
+在這邊有我們使用的雲端資料庫的金鑰資訊 (Parse的ApplicationId跟clientKey)你們可以去Parse.com免費申請一個帳號, 開一個自己的app然後用自己的金鑰在這邊輸入
+
+從Storyboard我們可以看到兩個畫面, 第一個畫面View Controller有兩個欄位可以上傳資料
+第二個畫面Channel List View Controller則是一個清單可以從雲端讀取這些資料
